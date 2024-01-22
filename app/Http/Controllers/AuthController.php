@@ -48,7 +48,6 @@ class AuthController extends Controller
             }
         }
 
-        dd($kredensial);
         return back()->with('error', config('error','Email pengguna atau password tidak sesuai'));
     }
 
